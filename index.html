@@ -1,25 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="Novara Brand & Brew is a digital marketing agency helping businesses build powerful brands and grow online.">
+        content="Novara Brand & Brew - Café and Bakery Consulting, Branding, Marketing and Business Growth Solutions.">
 
     <meta name="keywords"
-        content="Digital Marketing, SEO, Social Media Marketing, Google Ads, PPC, Meta Ads, Email Marketing, Graphic Design">
+        content="cafe consulting, bakery consulting, cafe branding, bakery branding, cafe marketing, bakery marketing, social media marketing">
 
     <meta name="author" content="Novara Brand & Brew">
 
-    <title>Novara Brand & Brew | Digital Marketing Agency</title>
+    <title>Novara Brand & Brew | Café & Bakery Consulting</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@400;500;600;700&display=swap"
         rel="stylesheet">
 
     <!-- Main CSS -->
@@ -28,34 +32,25 @@
 
 <body>
 
-    <!-- =========================
-         HEADER
-    ========================== -->
+    <!-- ==========================================
+         NAVIGATION
+    =========================================== -->
 
-    <header class="header">
+    <header class="navbar">
 
         <div class="container nav-container">
 
-            <a href="#home" class="logo">
-
-                <img src="logo.png" alt="Novara Brand & Brew Logo">
-
-                <span>
-                    Novara Brand & Brew
-                </span>
-
+            <a href="#home" class="logo-link">
+                <img src="logo.png" alt="Novara Brand & Brew Logo" class="logo">
             </a>
 
-            <button
-                class="menu-toggle"
-                id="menuToggle"
-                aria-label="Open navigation menu">
-
-                ☰
-
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
 
-            <nav class="nav-menu" id="navMenu">
+            <nav class="nav-menu">
 
                 <a href="#home">Home</a>
 
@@ -63,12 +58,17 @@
 
                 <a href="#services">Services</a>
 
-                <a href="#process">Process</a>
+                <a href="#process">Our Process</a>
+
+                <a href="#faq">FAQ</a>
 
                 <a href="#contact">Contact</a>
 
-                <a href="#contact" class="nav-cta">
-                    Get Started
+                <a href="https://wa.me/923704778105"
+                   class="nav-whatsapp"
+                   target="_blank"
+                   rel="noopener">
+                    WhatsApp
                 </a>
 
             </nav>
@@ -78,40 +78,40 @@
     </header>
 
 
-    <!-- =========================
-         HERO
-    ========================== -->
+    <!-- ==========================================
+         HERO SECTION
+    =========================================== -->
 
     <main>
 
-        <section class="hero" id="home">
+        <section id="home" class="hero">
 
             <div class="container hero-container">
 
-                <div class="hero-content">
+                <div class="hero-content reveal">
 
-                    <p class="eyebrow">
-                        Digital Marketing Agency
-                    </p>
+                    <span class="eyebrow">
+                        CAFÉ & BAKERY CONSULTING
+                    </span>
 
                     <h1>
-                        Brewing Ideas.
-                        <span>Building Brands.</span>
+                        Brew Your Vision.
+                        <span>Build Your Brand.</span>
                     </h1>
 
-                    <p class="hero-description">
-                        We help ambitious businesses grow online through
-                        smart digital marketing, creative branding and
-                        performance-driven strategies.
+                    <p>
+                        We help cafés and bakeries turn great ideas into
+                        memorable brands, smarter strategies and sustainable
+                        business growth.
                     </p>
 
                     <div class="hero-buttons">
 
                         <a href="#contact" class="btn btn-primary">
-                            Start Your Growth
+                            Book a Consultation
                         </a>
 
-                        <a href="#services" class="btn btn-outline">
+                        <a href="#services" class="btn btn-secondary">
                             Explore Services
                         </a>
 
@@ -119,91 +119,92 @@
 
                 </div>
 
+
+                <div class="hero-image reveal">
+
+                    <img src="assets/images/hero.jpg"
+                         alt="Professional café and bakery consulting">
+
+                </div>
+
             </div>
 
         </section>
 
 
-        <!-- =========================
-             ABOUT
-        ========================== -->
+        <!-- ==========================================
+             ABOUT SECTION
+        =========================================== -->
 
-        <section class="section about" id="about">
+        <section id="about" class="section about-section">
 
-            <div class="container">
+            <div class="container about-grid">
 
-                <div class="about-grid">
+                <div class="about-image reveal">
 
-                    <div class="section-heading">
+                    <img src="assets/images/about.jpg"
+                         alt="Novara Brand & Brew consulting">
 
-                        <p class="eyebrow">
-                            About Novara
-                        </p>
+                </div>
 
-                        <h2>
-                            Marketing with
-                            <span>purpose.</span>
-                        </h2>
 
-                    </div>
+                <div class="about-content reveal">
 
-                    <div class="about-content">
+                    <span class="section-label">
+                        ABOUT NOVARA
+                    </span>
 
-                        <p>
-                            Novara Brand & Brew is a digital marketing agency
-                            focused on helping businesses establish a stronger
-                            online presence, connect with the right audience
-                            and grow with confidence.
-                        </p>
+                    <h2>
+                        Your Ideas Deserve
+                        <span>a Strong Brand.</span>
+                    </h2>
 
-                        <p>
-                            We combine creative thinking with practical
-                            marketing strategy — so your brand does not just
-                            look good, it works.
-                        </p>
+                    <p>
+                        Novara Brand & Brew is a consulting brand dedicated
+                        to helping cafés and bakeries create stronger brands,
+                        improve their marketing and build businesses that
+                        customers remember.
+                    </p>
 
-                        <div class="stats">
+                    <p>
+                        From brand strategy and positioning to social media
+                        and marketing guidance, we bring creativity and
+                        business strategy together.
+                    </p>
 
-                            <div class="stat-card">
+                    <div class="about-points">
 
-                                <strong>360°</strong>
-
-                                <span>
-                                    Digital Marketing Approach
-                                </span>
-
+                        <div class="about-point">
+                            <strong>01</strong>
+                            <div>
+                                <h3>Strategic Thinking</h3>
+                                <p>
+                                    Clear strategies designed around your
+                                    business goals.
+                                </p>
                             </div>
+                        </div>
 
-                            <div class="stat-card">
-
-                                <strong>Data</strong>
-
-                                <span>
-                                    Driven Decisions
-                                </span>
-
+                        <div class="about-point">
+                            <strong>02</strong>
+                            <div>
+                                <h3>Creative Branding</h3>
+                                <p>
+                                    Memorable brand identities that connect
+                                    with your audience.
+                                </p>
                             </div>
+                        </div>
 
-                            <div class="stat-card">
-
-                                <strong>Creative</strong>
-
-                                <span>
-                                    Brand Solutions
-                                </span>
-
+                        <div class="about-point">
+                            <strong>03</strong>
+                            <div>
+                                <h3>Growth Focused</h3>
+                                <p>
+                                    Practical marketing ideas built to
+                                    support long-term growth.
+                                </p>
                             </div>
-
-                            <div class="stat-card">
-
-                                <strong>Growth</strong>
-
-                                <span>
-                                    Focused Strategy
-                                </span>
-
-                            </div>
-
                         </div>
 
                     </div>
@@ -215,28 +216,28 @@
         </section>
 
 
-        <!-- =========================
-             SERVICES
-        ========================== -->
+        <!-- ==========================================
+             SERVICES SECTION
+        =========================================== -->
 
-        <section class="section services" id="services">
+        <section id="services" class="section services-section">
 
             <div class="container">
 
-                <div class="section-heading centered">
+                <div class="section-heading reveal">
 
-                    <p class="eyebrow">
-                        What We Do
-                    </p>
+                    <span class="section-label">
+                        WHAT WE DO
+                    </span>
 
                     <h2>
-                        Our <span>Services</span>
+                        Services Designed
+                        <span>for Your Growth.</span>
                     </h2>
 
-                    <p class="section-description">
-                        Everything you need to strengthen your digital
-                        presence, attract the right audience and grow
-                        your business.
+                    <p>
+                        Practical consulting and marketing solutions
+                        created specifically for cafés and bakeries.
                     </p>
 
                 </div>
@@ -244,328 +245,179 @@
 
                 <div class="services-grid">
 
-                    <!-- SEO -->
 
-                    <article class="service-card">
+                    <!-- SERVICE 1 -->
 
-                        <div class="service-icon">
-                            ⌕
-                        </div>
+                    <article class="service-card reveal">
 
-                        <h3>
-                            SEO
-                        </h3>
-
-                        <p>
-                            Improve your search visibility, attract qualified
-                            traffic and build sustainable organic growth.
-                        </p>
-
-                    </article>
-
-
-                    <!-- Social Media -->
-
-                    <article class="service-card">
-
-                        <div class="service-icon">
-                            ◉
-                        </div>
-
-                        <h3>
-                            Social Media Marketing
-                        </h3>
-
-                        <p>
-                            Build an engaging social presence with strategic
-                            content and audience-focused campaigns.
-                        </p>
-
-                    </article>
-
-
-                    <!-- Google Ads -->
-
-                    <article class="service-card">
-
-                        <div class="service-icon">
-                            ◈
-                        </div>
-
-                        <h3>
-                            Google Ads / PPC
-                        </h3>
-
-                        <p>
-                            Reach high-intent customers with targeted paid
-                            search campaigns designed for better performance.
-                        </p>
-
-                    </article>
-
-
-                    <!-- Meta Ads -->
-
-                    <article class="service-card">
-
-                        <div class="service-icon">
-                            ◆
-                        </div>
-
-                        <h3>
-                            Meta Ads
-                        </h3>
-
-                        <p>
-                            Connect with your audience on Facebook and
-                            Instagram through conversion-focused advertising.
-                        </p>
-
-                    </article>
-
-
-                    <!-- Email Marketing -->
-
-                    <article class="service-card">
-
-                        <div class="service-icon">
-                            ✉
-                        </div>
-
-                        <h3>
-                            Email Marketing
-                        </h3>
-
-                        <p>
-                            Turn subscribers into loyal customers through
-                            thoughtful campaigns and personalization.
-                        </p>
-
-                    </article>
-
-
-                    <!-- Graphic Design -->
-
-                    <article class="service-card">
-
-                        <div class="service-icon">
-                            ✦
-                        </div>
-
-                        <h3>
-                            Graphic Design
-                        </h3>
-
-                        <p>
-                            Create a memorable visual identity with polished
-                            graphics that make your brand stand out.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             WHY CHOOSE US
-        ========================== -->
-
-        <section class="section why-us">
-
-            <div class="container">
-
-                <div class="section-heading centered">
-
-                    <p class="eyebrow">
-                        Why Novara
-                    </p>
-
-                    <h2>
-                        Built to make your brand
-                        <span>matter.</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="why-grid">
-
-                    <div class="why-card">
-
-                        <span class="number">
-                            01
-                        </span>
-
-                        <h3>
-                            Strategic Thinking
-                        </h3>
-
-                        <p>
-                            Marketing strategies aligned with your
-                            business goals.
-                        </p>
-
-                    </div>
-
-
-                    <div class="why-card">
-
-                        <span class="number">
-                            02
-                        </span>
-
-                        <h3>
-                            Creative Execution
-                        </h3>
-
-                        <p>
-                            Strong ideas transformed into powerful
-                            visual content.
-                        </p>
-
-                    </div>
-
-
-                    <div class="why-card">
-
-                        <span class="number">
-                            03
-                        </span>
-
-                        <h3>
-                            Audience First
-                        </h3>
-
-                        <p>
-                            Campaigns designed around the people
-                            you want to reach.
-                        </p>
-
-                    </div>
-
-
-                    <div class="why-card">
-
-                        <span class="number">
-                            04
-                        </span>
-
-                        <h3>
-                            Growth Focused
-                        </h3>
-
-                        <p>
-                            Marketing designed to support visibility
-                            and business growth.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             PROCESS
-        ========================== -->
-
-        <section class="section process" id="process">
-
-            <div class="container">
-
-                <div class="section-heading centered">
-
-                    <p class="eyebrow">
-                        Our Process
-                    </p>
-
-                    <h2>
-                        From idea to
-                        <span>impact.</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="process-grid">
-
-                    <div class="process-card">
-
-                        <div class="process-number">
+                        <div class="service-number">
                             01
                         </div>
 
-                        <h3>
-                            Discover
-                        </h3>
+                        <img src="assets/images/cafe-consulting.jpg"
+                             alt="Café consulting">
 
-                        <p>
-                            We understand your brand, audience,
-                            market and goals.
-                        </p>
+                        <div class="service-content">
 
-                    </div>
+                            <h3>Café Consulting</h3>
+
+                            <p>
+                                Build a stronger café concept with clear
+                                positioning, strategy and business direction.
+                            </p>
+
+                            <a href="#contact" class="service-link">
+                                Learn More →
+                            </a>
+
+                        </div>
+
+                    </article>
 
 
-                    <div class="process-card">
+                    <!-- SERVICE 2 -->
 
-                        <div class="process-number">
+                    <article class="service-card reveal">
+
+                        <div class="service-number">
                             02
                         </div>
 
-                        <h3>
-                            Strategize
-                        </h3>
+                        <img src="assets/images/bakery-consulting.jpg"
+                             alt="Bakery consulting">
 
-                        <p>
-                            We create a practical digital strategy
-                            around your goals.
-                        </p>
+                        <div class="service-content">
 
-                    </div>
+                            <h3>Bakery Consulting</h3>
+
+                            <p>
+                                Develop a memorable bakery brand and create
+                                strategies that attract the right customers.
+                            </p>
+
+                            <a href="#contact" class="service-link">
+                                Learn More →
+                            </a>
+
+                        </div>
+
+                    </article>
 
 
-                    <div class="process-card">
+                    <!-- SERVICE 3 -->
 
-                        <div class="process-number">
+                    <article class="service-card reveal">
+
+                        <div class="service-number">
                             03
                         </div>
 
-                        <h3>
-                            Execute
-                        </h3>
+                        <img src="assets/images/branding.jpg"
+                             alt="Café and bakery branding">
 
-                        <p>
-                            We turn strategy into creative content
-                            and campaigns.
-                        </p>
+                        <div class="service-content">
 
-                    </div>
+                            <h3>Branding Strategy</h3>
+
+                            <p>
+                                Create a unique identity, clear positioning
+                                and consistent brand experience.
+                            </p>
+
+                            <a href="#contact" class="service-link">
+                                Learn More →
+                            </a>
+
+                        </div>
+
+                    </article>
 
 
-                    <div class="process-card">
+                    <!-- SERVICE 4 -->
 
-                        <div class="process-number">
+                    <article class="service-card reveal">
+
+                        <div class="service-number">
                             04
                         </div>
 
-                        <h3>
-                            Optimize
-                        </h3>
+                        <img src="assets/images/social-media.jpg"
+                             alt="Social media marketing">
 
-                        <p>
-                            We refine campaigns to improve
-                            marketing performance.
-                        </p>
+                        <div class="service-content">
 
-                    </div>
+                            <h3>Social Media Marketing</h3>
+
+                            <p>
+                                Build your online presence with strategic
+                                content and social media guidance.
+                            </p>
+
+                            <a href="#contact" class="service-link">
+                                Learn More →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- SERVICE 5 -->
+
+                    <article class="service-card reveal">
+
+                        <div class="service-number">
+                            05
+                        </div>
+
+                        <img src="assets/images/marketing.jpg"
+                             alt="Café and bakery marketing">
+
+                        <div class="service-content">
+
+                            <h3>Marketing Strategy</h3>
+
+                            <p>
+                                Turn your marketing efforts into a clear,
+                                focused strategy designed for growth.
+                            </p>
+
+                            <a href="#contact" class="service-link">
+                                Learn More →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- SERVICE 6 -->
+
+                    <article class="service-card reveal">
+
+                        <div class="service-number">
+                            06
+                        </div>
+
+                        <img src="assets/images/branding.jpg"
+                             alt="Business growth consulting">
+
+                        <div class="service-content">
+
+                            <h3>Business Growth</h3>
+
+                            <p>
+                                Identify opportunities, improve your strategy
+                                and build a stronger foundation for growth.
+                            </p>
+
+                            <a href="#contact" class="service-link">
+                                Learn More →
+                            </a>
+
+                        </div>
+
+                    </article>
 
                 </div>
 
@@ -574,33 +426,36 @@
         </section>
 
 
-        <!-- =========================
-             CTA
-        ========================== -->
+        <!-- ==========================================
+             CTA SECTION
+        =========================================== -->
 
-        <section class="cta">
+        <section class="cta-section">
 
-            <div class="container">
+            <div class="container cta-container">
 
-                <div class="cta-box">
+                <div class="cta-content reveal">
 
-                    <p class="eyebrow">
-                        Ready to Grow?
-                    </p>
+                    <span class="section-label">
+                        READY TO GROW?
+                    </span>
 
                     <h2>
-                        Let's turn your
-                        <span>digital presence</span>
-                        into business momentum.
+                        Let's Turn Your
+                        <span>Ideas Into Impact.</span>
                     </h2>
 
                     <p>
-                        Tell us about your business and let's start
-                        building a marketing strategy that fits your brand.
+                        Whether you're starting a new café or bakery,
+                        refreshing your brand or looking for better
+                        marketing direction, we're here to help.
                     </p>
 
-                    <a href="#contact" class="btn btn-primary">
-                        Let's Talk
+                    <a href="https://wa.me/923704778105?text=Hello%20Novara%20Brand%20%26%20Brew%21%20I%20would%20like%20to%20book%20a%20consultation."
+                       class="btn btn-primary"
+                       target="_blank"
+                       rel="noopener">
+                        Book Your Consultation
                     </a>
 
                 </div>
@@ -610,132 +465,323 @@
         </section>
 
 
-        <!-- =========================
-             CONTACT
-        ========================== -->
+        <!-- ==========================================
+             PROCESS SECTION
+        =========================================== -->
 
-        <section class="section contact" id="contact">
+        <section id="process" class="section process-section">
 
             <div class="container">
 
-                <div class="contact-grid">
+                <div class="section-heading reveal">
 
-                    <div class="contact-content">
+                    <span class="section-label">
+                        HOW IT WORKS
+                    </span>
 
-                        <p class="eyebrow">
-                            Get In Touch
-                        </p>
+                    <h2>
+                        A Simple Process.
+                        <span>Clear Direction.</span>
+                    </h2>
 
-                        <h2>
-                            Let's brew something
-                            <span>great.</span>
-                        </h2>
+                </div>
+
+
+                <div class="process-grid">
+
+
+                    <div class="process-step reveal">
+
+                        <span>01</span>
+
+                        <h3>Discover</h3>
 
                         <p>
-                            Have a project, business idea or growth challenge?
-                            Reach out to Novara Brand & Brew and let's discuss
-                            how we can help.
+                            We understand your business, goals, audience
+                            and current challenges.
                         </p>
 
-
-                        <!-- EMAIL -->
-
-                        <div class="contact-item">
-
-                            <div class="contact-icon">
-                                ✉
-                            </div>
-
-                            <div>
-
-                                <small>
-                                    Email
-                                </small>
-
-                                <a href="mailto:info.novara1@gmail.com">
-                                    info.novara1@gmail.com
-                                </a>
-
-                            </div>
-
-                        </div>
+                    </div>
 
 
-                        <!-- WHATSAPP -->
+                    <div class="process-step reveal">
 
-                        <div class="contact-item">
+                        <span>02</span>
 
-                            <div class="contact-icon">
-                                ☎
-                            </div>
+                        <h3>Strategize</h3>
 
-                            <div>
+                        <p>
+                            We develop a focused strategy based on your
+                            brand and growth objectives.
+                        </p>
 
-                                <small>
-                                    WhatsApp
-                                </small>
-
-                                <a
-                                    href="https://wa.me/923704778105"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
-
-                                    +92 370 4778105
-
-                                </a>
-
-                            </div>
-
-                        </div>
+                    </div>
 
 
-                        <!-- INSTAGRAM -->
+                    <div class="process-step reveal">
 
-                        <div class="contact-item">
+                        <span>03</span>
 
-                            <div class="contact-icon">
-                                ◎
-                            </div>
+                        <h3>Build</h3>
 
-                            <div>
+                        <p>
+                            We turn the strategy into practical branding
+                            and marketing actions.
+                        </p>
 
-                                <small>
-                                    Instagram
-                                </small>
+                    </div>
 
-                                <a
-                                    href="https://www.instagram.com/novara_creative1/"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
 
-                                    @novara_creative1
+                    <div class="process-step reveal">
 
-                                </a>
+                        <span>04</span>
 
-                            </div>
+                        <h3>Grow</h3>
+
+                        <p>
+                            We help you improve, optimize and move forward
+                            with confidence.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             FAQ SECTION
+        =========================================== -->
+
+        <section id="faq" class="section faq-section">
+
+            <div class="container faq-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        FAQ
+                    </span>
+
+                    <h2>
+                        Frequently Asked
+                        <span>Questions.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="faq-list">
+
+
+                    <div class="faq-item reveal">
+
+                        <button class="faq-question">
+                            What does Novara Brand & Brew offer?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                We provide café and bakery consulting,
+                                branding strategy, marketing guidance,
+                                social media strategy and business growth
+                                consulting.
+                            </p>
 
                         </div>
 
                     </div>
 
 
-                    <!-- CONTACT FORM -->
+                    <div class="faq-item reveal">
 
-                    <form
-                        class="contact-form"
-                        id="contactForm">
+                        <button class="faq-question">
+                            Do you work with new cafés and bakeries?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Yes. We can help new businesses with
+                                positioning, branding, marketing direction
+                                and strategic planning.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item reveal">
+
+                        <button class="faq-question">
+                            Can you help with an existing café or bakery?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Absolutely. We can review your current
+                                branding and marketing approach and identify
+                                opportunities for improvement and growth.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item reveal">
+
+                        <button class="faq-question">
+                            How can I book a consultation?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Simply click any consultation or WhatsApp
+                                button on the website and send us a message.
+                                We'll guide you through the next steps.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item reveal">
+
+                        <button class="faq-question">
+                            Do you provide customized strategies?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Yes. Every business is different, so our
+                                consulting approach is tailored to your
+                                goals, audience and business needs.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             CONTACT SECTION
+        =========================================== -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container contact-grid">
+
+
+                <div class="contact-info reveal">
+
+                    <span class="section-label">
+                        GET IN TOUCH
+                    </span>
+
+                    <h2>
+                        Let's Talk About
+                        <span>Your Brand.</span>
+                    </h2>
+
+                    <p>
+                        Have a café or bakery idea? Looking to improve
+                        your brand or marketing? Send us a message and
+                        let's start the conversation.
+                    </p>
+
+
+                    <div class="contact-details">
+
+
+                        <div class="contact-detail">
+
+                            <span class="contact-icon">
+                                WhatsApp
+                            </span>
+
+                            <div>
+
+                                <h3>WhatsApp</h3>
+
+                                <a href="https://wa.me/923704778105"
+                                   target="_blank"
+                                   rel="noopener">
+                                    +92 370 4778105
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-detail">
+
+                            <span class="contact-icon">
+                                Social
+                            </span>
+
+                            <div>
+
+                                <h3>Facebook</h3>
+
+                                <a href="https://www.facebook.com/"
+                                   target="_blank"
+                                   rel="noopener">
+                                    Novara Brand & Brew
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-form-wrapper reveal">
+
+                    <form id="contactForm" class="contact-form">
 
                         <div class="form-group">
 
                             <label for="name">
-                                Your Name
+                                Your Name *
                             </label>
 
                             <input
                                 type="text"
                                 id="name"
-                                required
-                                placeholder="Enter your name">
+                                name="name"
+                                placeholder="Enter your name"
+                                required>
 
                         </div>
 
@@ -743,14 +789,15 @@
                         <div class="form-group">
 
                             <label for="email">
-                                Email Address
+                                Email Address *
                             </label>
 
                             <input
                                 type="email"
                                 id="email"
-                                required
-                                placeholder="you@example.com">
+                                name="email"
+                                placeholder="Enter your email"
+                                required>
 
                         </div>
 
@@ -758,23 +805,22 @@
                         <div class="form-group">
 
                             <label for="message">
-                                Your Message
+                                Your Message *
                             </label>
 
                             <textarea
                                 id="message"
-                                required
-                                placeholder="Tell us about your project..."></textarea>
+                                name="message"
+                                rows="6"
+                                placeholder="Tell us about your café or bakery..."
+                                required></textarea>
 
                         </div>
 
 
-                        <button
-                            type="submit"
-                            class="btn btn-primary form-button">
-
+                        <button type="submit"
+                                class="btn btn-primary form-submit">
                             Send via WhatsApp
-
                         </button>
 
                     </form>
@@ -788,88 +834,112 @@
     </main>
 
 
-    <!-- =========================
+    <!-- ==========================================
          FOOTER
-    ========================== -->
+    =========================================== -->
 
-    <footer>
+    <footer class="footer">
 
         <div class="container footer-container">
 
+
             <div class="footer-brand">
 
-                <img
-                    src="logo.png"
-                    alt="Novara Brand & Brew Logo">
+                <img src="logo.png"
+                     alt="Novara Brand & Brew"
+                     class="footer-logo">
 
-                <div>
-
-                    <strong>
-                        Novara Brand & Brew
-                    </strong>
-
-                    <p>
-                        Brewing Ideas, Building Brands.
-                    </p>
-
-                </div>
+                <p>
+                    Café & Bakery Consulting,
+                    Branding & Marketing.
+                </p>
 
             </div>
 
 
-            <div class="footer-social">
+            <div class="footer-links">
 
-                <a
-                    href="https://www.instagram.com/novara_creative1/"
-                    target="_blank"
-                    rel="noopener noreferrer">
+                <h3>Quick Links</h3>
 
-                    Instagram
+                <a href="#home">Home</a>
 
-                </a>
+                <a href="#about">About</a>
 
-                <a
-                    href="mailto:info.novara1@gmail.com">
+                <a href="#services">Services</a>
 
-                    Email
+                <a href="#process">Our Process</a>
 
-                </a>
+                <a href="#faq">FAQ</a>
 
-                <a
-                    href="https://wa.me/923704778105"
-                    target="_blank"
-                    rel="noopener noreferrer">
+                <a href="#contact">Contact</a>
 
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h3>Let's Connect</h3>
+
+                <a href="https://wa.me/923704778105"
+                   target="_blank"
+                   rel="noopener">
                     WhatsApp
+                </a>
 
+                <a href="https://www.facebook.com/"
+                   target="_blank"
+                   rel="noopener">
+                    Facebook
                 </a>
 
             </div>
 
 
-            <p class="copyright">
-                © 2026 Novara Brand & Brew. All Rights Reserved.
-            </p>
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © <span id="currentYear"></span>
+                    Novara Brand & Brew. All Rights Reserved.
+                </p>
+
+            </div>
 
         </div>
 
     </footer>
 
 
-    <!-- =========================
-         FLOATING WHATSAPP BUTTON
-    ========================== -->
+    <!-- ==========================================
+         FLOATING WHATSAPP
+    =========================================== -->
 
-    <a
-        href="https://wa.me/923704778105?text=Hi%20Novara%20Brand%20%26%20Brew%2C%20I%20would%20like%20to%20know%20more%20about%20your%20digital%20marketing%20services."
-        class="whatsapp-button"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Chat with Novara Brand & Brew on WhatsApp">
+    <a href="https://wa.me/923704778105?text=Hello%20Novara%20Brand%20%26%20Brew%21%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+       class="floating-whatsapp whatsapp-btn"
+       target="_blank"
+       rel="noopener"
+       aria-label="Contact Novara Brand & Brew on WhatsApp">
 
-        <span>WhatsApp</span>
+        WhatsApp
 
     </a>
+
+
+    <!-- ==========================================
+         BACK TO TOP
+    =========================================== -->
+
+    <button id="backToTop"
+            class="back-to-top"
+            aria-label="Back to top">
+
+        ↑
+
+    </button>
 
 
     <!-- Main JavaScript -->
